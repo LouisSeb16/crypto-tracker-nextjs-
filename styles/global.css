@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Public Sans;
+    src: url('../public/fonts/PublicSans-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: Plus Display;
+    src: url('../public/fonts/fnt2/PlusJakartaDisplay-Regular.otf');
+}
+body{
+    font-family: Plus Display, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: rgb(20,26,42);
+}
+
+* {
+    box-sizing: border-box;
+}
+.coin_app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  /* Layout CSS */
+  .layout {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  .coin_logo {
+    height: 200px;
+    width: 200px;
+  }
